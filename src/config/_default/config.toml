@@ -1,0 +1,66 @@
+baseURL      = "/"
+languageCode = "en-us"
+timeZone     = "America/Denver"
+title        = "slashdoom.com"
+paginate     = 24
+copyright    = "© 2024 slashdoom.com All rights reserved."
+
+[Author]
+name  = "slashdoom.com"
+email = "patrick@slashdoom.com"
+github = "slashdoom"
+
+[params]
+rss              = true
+comments         = true
+readingTime      = true
+wordCount        = true
+useHLJS          = true
+socialShare      = true
+delayDisqus      = true
+showRelatedPosts = true
+mainSections = ["post", "tools"]
+
+[params.google]
+
+[params.hero]
+    title    = "slashdoom.com"
+    subtitle = "Profolio site for Patrick (slashdoom), an open source solution designer advocate and contributor."
+[params.hero.logo]
+    src     = "/img/_logo.svg"
+    height  = "64"
+    width   = "64"
+    alt     = "slashdoom.com"
+
+[[menu.main]]
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Posts"
+    url        = "/post/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Tools"
+    url        = "/tools/"
+    weight     = 3
+
+[[menu.main]]
+    name       = "About"
+    url        = "/about/"
+    weight     = 4
+
+[[menu.main]]
+    name       = "Tags"
+    url        = "/tags/"
+    weight     = 5
+
+[module]
+    [[module.imports]]
+        path = "github.com/ionic-team/ionicons"
+        disable = false
+        [[module.imports.mounts]]
+            source = "src/svg"
+            target = "assets/svg/ionicons"

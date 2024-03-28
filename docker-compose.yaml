@@ -1,0 +1,33 @@
+version: "3.4"
+
+services:
+
+  build:
+    image: klakegg/hugo:ext-alpine
+    entrypoint: ""
+    command: >
+      sh -c "rm -f go.mod &&
+             rm -f go.sum &&
+             hugo mod init dummy-mod &&
+             hugo mod tidy &&
+             hugo mod get -u &&
+             hugo --environment='production'"      
+    volumes:
+      - "./src:/src"
+    environment:
+      - "TZ=America/Denver"
+
+  serve:
+    image: klakegg/hugo:ext-alpine
+    entrypoint: ""
+    command: >
+      ash -c "hugo mod get -u &&
+              hugo server --environment='development' --baseURL '' --disableFastRender"      
+    environment:
+      - "TZ=America/Denver"
+    volumes:
+      - "./src:/src"
+      - "./themes:/src/themes"
+      - "./content:/src/content"
+    ports:
+      - "1313:1313"
