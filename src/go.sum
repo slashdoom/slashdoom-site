@@ -1,2 +1,8 @@
-github.com/ionic-team/ionicons v7.3.0+incompatible h1:Oz4y0OpzSwWNOKDaY163CjkKQJvnKpaLS7QQtqJTOlE=
-github.com/ionic-team/ionicons v7.3.0+incompatible/go.mod h1:3Q2+G3GjYWiyNemHI1VsYsxZxJ2aHVYOq7R+Qd72D2Y=
+github.com/ionic-team/ionicons v7.3.1+incompatible h1:lSJ6UNqXJYFqj/XOuyUgS4ponimf0mpHWRLVpCEPY4E=
+github.com/ionic-team/ionicons v7.3.1+incompatible/go.mod h1:3Q2+G3GjYWiyNemHI1VsYsxZxJ2aHVYOq7R+Qd72D2Y=
+github.com/mfg92/hugo-shortcode-gallery v1.1.1 h1:SQfyXMG3LaJ7aRVa/Lta8UP61VG6SESh19qe6XZsi+k=
+github.com/mfg92/hugo-shortcode-gallery v1.1.1/go.mod h1:zKnMCx7OJJPTfVNalUAFGkNVABLCqIuPl57NeBtSFc0=
+github.com/slashdoom/slashdoom-content v0.0.0-20240403135101-4b9364b00734 h1:5F5uufE0Q0DcpY0dYEpSnAvdb5R+j57JuvRyagqxOAc=
+github.com/slashdoom/slashdoom-content v0.0.0-20240403135101-4b9364b00734/go.mod h1:xfB9efzD/127cgyzoX3bgPptTfmbcuQJeR9+5C3/0oE=
+github.com/slashdoom/slashdoom-theme v0.0.0-20240401195328-e3a14aa54025 h1:78iCfwuUA/uSRBVzZs/M8VaMLW3PSIlIuz3Q82/yHGY=
+github.com/slashdoom/slashdoom-theme v0.0.0-20240401195328-e3a14aa54025/go.mod h1:JHahzf6iuhjeZ2+8eRD2imocqKohBm7JRvkgLVARHxk=
