@@ -25,7 +25,7 @@ mainSections = ["post", "tools"]
 
 [params.hero]
     title    = "slashdoom.com"
-    subtitle = "Profolio site for Patrick (slashdoom), an open source solution designer advocate and contributor."
+    subtitle = "Welcome to Patrick's (slashdoom) portfolio - a showcase of network engineering, open-source design, and advocacy."
 [params.hero.logo]
     src     = "/img/_logo.svg"
     height  = "64"
